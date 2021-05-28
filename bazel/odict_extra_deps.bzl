@@ -105,9 +105,7 @@ def odict_extra_deps():
         go_repository,
         name = "com_github_blevesearch_vellum",
         importpath = "github.com/blevesearch/vellum",
-        remote = "git@github.com:Nickersoft/vellum.git",
-        commit = "e1b412ddea6adc8efc1f958640b8c045b330c32b",
-        vcs = "git",
+        commit = "b87b51c10ca106b433cace53905e0535baca8227",
     )
 
     maybe(
